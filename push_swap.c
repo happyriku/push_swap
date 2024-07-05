@@ -6,7 +6,7 @@
 /*   By: rishibas <rishibas@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/01 14:47:43 by rishibas          #+#    #+#             */
-/*   Updated: 2024/07/02 15:00:29 by rishibas         ###   ########.fr       */
+/*   Updated: 2024/07/05 14:56:36 by rishibas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int	main(int argc, char **argv)
 	t_stack		*b;
 	int			*arr;
 
-	if (argc <= 2)
+	if (argc <= 1)
 		return (0);
 	arr = get_ascending_arr(argv, argc - 1);
 	if (!arr)

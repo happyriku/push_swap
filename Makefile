@@ -6,7 +6,7 @@ SRCS = push_swap.c get_ascending_arr.c free_node.c add_node.c coordinate_compres
 
 OBJS = $(SRCS:.c=.o)
 CC = cc
-CFLAGS = -Ift_printf.c -Ilibft.h
+CFLAGS = -Wall -Wextra -Werror -Ift_printf.c -Ilibft.h
 MAKE = make
 RM = rm -f
 
