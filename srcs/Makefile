@@ -6,7 +6,7 @@ OBJS = $(SRCS:.c=.o)
 
 CC = cc
 CFLAG = -Wall -Wextra -Werror
-CPPFLAGS = -Ilibft.h -Ift_printf.h
+#CPPFLAGS = -Ift_printf.h
 RM = rm -f
 
 $(NAME):$(OBJS)
@@ -16,7 +16,7 @@ $(NAME):$(OBJS)
 all:$(NAME)
 
 .c.o:
-	$(CC) $(CFLAG) $(CPPFLAGS) -c $< -o $(<:.c=.o)
+	$(CC) $(CFLAG)  -c $< -o $(<:.c=.o)
 
 clean:
 	$(RM) $(OBJS)

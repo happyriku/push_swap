@@ -14,11 +14,9 @@
 
 int	check_ascending_order(t_stack *a)
 {
-	int		i;
 	t_stack	*tmp;
 
 	tmp = a;
-	i = 0;
 	while (tmp->next)
 	{
 		if (tmp->content > tmp->next->content)
